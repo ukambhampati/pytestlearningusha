@@ -1,5 +1,4 @@
 from hello import is_hello_displayed
-from hello import hello_not_displayed
 
 
 def test_more_hello():
