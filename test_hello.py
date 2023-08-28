@@ -6,4 +6,4 @@ def test_more_hello():
 
 
 def test_more_hello_fail():
-    assert not is_hello_displayed, "hello not displayed"
+    assert not hello_not_displayed, "hello displayed"
