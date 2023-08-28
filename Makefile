@@ -1,9 +1,9 @@
 install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	pip3 install --upgrade pip &&\
+		pip3 install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=hello --cov=greeting tests
+	python3 -m pytest -vv --cov=hello --cov=greeting tests
 
 format:
 	black *.py
